@@ -1,0 +1,37 @@
+header {
+    background-image: url("./imgs/backgroundImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.fadeAnimated {
+    opacity: 1;
+    animation: Fade 3s ease;
+}
+  
+@keyframes Fade {
+    0%{ opacity: 0 }
+    100% { opacity: 1 }
+}
+
+.abzarText {
+    margin-right: 0.3em; 
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.headerText {
+    font-size: 2.5em;
+    margin: 1em;
+}
+
+.mainImage {
+    height: 15em;
+}
+
+.deleteMenue {
+    text-align: right;
+}

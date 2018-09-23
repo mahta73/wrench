@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import wrench from './imgs/mainImage.png'
+import wrench from './imgs/mainImage.png';
+import SocialMedia from '../socialMedia/socialMedia';
 import './header.css';
 
 class Header extends Component {
     render() {
         return (
             <div>
+                <SocialMedia />
                 <header>
                     <hr />
                         <p className = 'deleteMenue'>
@@ -19,7 +21,7 @@ class Header extends Component {
                         </span>
                         </p>
 
-                        <img className = 'mainImage fadeAnimated' src = {wrench} />                
+                        <img className = 'mainImage slowFadeAnimated' src = {wrench} />                
                     <hr />
                 </header>
             </div>

@@ -1,0 +1,21 @@
+.logo {
+    opacity: 1;
+    margin-right: 0.8em;
+}
+
+.logo:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

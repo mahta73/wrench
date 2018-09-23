@@ -9,7 +9,12 @@ header {
 
 .fadeAnimated {
     opacity: 1;
-    animation: Fade 3s ease;
+    animation: Fade 2.5s ease;
+}
+
+.slowFadeAnimated {
+    opacity: 1;
+    animation: Fade 4s ease;
 }
   
 @keyframes Fade {
@@ -21,6 +26,7 @@ header {
     margin-right: 0.3em; 
     font-size: 1.5em;
     font-weight: 400;
+    color: #020557;
 }
 
 .headerText {
